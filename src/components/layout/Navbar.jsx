@@ -1,17 +1,19 @@
 function Navbar() {
   return (
-    <nav>
-      <h2>VetCare</h2>
+    <nav className="navbar">
+      <div className="logo">
+        <h2>VetCare</h2>
+      </div>
 
-      <ul>
+      <ul className="nav-links">
         <li>Inicio</li>
         <li>Servicios</li>
         <li>Nosotros</li>
         <li>Contacto</li>
       </ul>
 
-      <div>
-        <button>Iniciar Sesión</button>
+      <div className="auth-buttons">
+        <button>Ingresar</button>
         <button>Registrarse</button>
       </div>
     </nav>

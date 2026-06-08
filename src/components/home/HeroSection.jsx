@@ -1,15 +1,22 @@
 function HeroSection() {
   return (
     <section>
-      <h1>Cuidamos la salud y felicidad de tu mascota</h1>
+      <div>
+        <span>🐾 Líderes en medicina veterinaria</span>
 
-      <p>
-        Agenda citas, consulta historiales médicos y recibe atención veterinaria
-        profesional.
-      </p>
+        <h1>Cuidado excepcional para tus mejores amigos</h1>
 
-      <button>Agendar Cita</button>
-      <button>Conocer Más</button>
+        <p>
+          Combinamos tecnología médica con atención personalizada para el
+          bienestar de tu mascota.
+        </p>
+
+        <button>Empezar ahora</button>
+
+        <button>Ver servicios</button>
+      </div>
+
+      <div>Imagen Veterinaria</div>
     </section>
   );
 }
